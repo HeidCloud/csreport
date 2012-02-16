@@ -1,0 +1,6 @@
+api_name      : Internal Cloudstack test
+api_key       : your key
+api_secret    : secret key
+api_endpoint  : http://xxx.iixxx.0.0:8080/client/api?
+command       : deleteTemplate
+id            : template id you wish to delete

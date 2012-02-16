@@ -1,16 +1,20 @@
 CSREPORT
 ========
 
-- A Quick and dirty hack to query a cloudstack endpoint for details.
+- Some Quick and dirty hack scripts to use the Cloudstack api 
 - Use at your own risk.
 
 USAGE
 ========
 
-- Add creds to creds.yml file.
+- to use the api to report various things, add creds to creds.yml file and run cloudreport.rb.
 
 ./cloudreport.rb > cloudreport.txt
 
+- to use the api to register an image as a cloudstack template Add creds to the reg.yml file
+ and run cloudregtemplate.rb
+
+- to use the api to delete an image add creds to del.yml and run clouddeltemplate.rb
 
 NOTES
 =====

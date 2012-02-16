@@ -1,0 +1,13 @@
+api_name      : Internal Cloudstack test
+api_key       : your api key 
+api_secret    : your secret key
+api_endpoint  : http://xxx.xxx.0.200:8080/client/api?
+command       : registerTemplate
+name          : apitest1
+displaytext   : apitest1
+url           : http://downloadurl-cloudstack.s3.amazonaws.com/vmware/esxi/centos/5.6/CentOS_5.6_x64_v5.7.14.vmdk.ova
+checksum      : your md5
+zoneid        : -1
+ostypeid      : 141
+hypervisor    : vmware
+format        : ova
